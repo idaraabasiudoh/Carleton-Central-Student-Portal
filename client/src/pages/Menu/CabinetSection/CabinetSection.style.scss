@@ -1,0 +1,35 @@
+@import "../../../globals.scss";
+
+.CabinetSection {
+  display: flex;
+  color: rgb(255, 255, 255);
+  gap: 0.5rem;
+  font-family: 'Poppins';
+  img {
+    height: 3.2rem;
+    color: rgb(255, 0, 0);
+  }
+
+  li {
+    font-size: 70%;
+  }
+  .title {
+    font-family: 'Righteous';
+    font-style: bold;
+    color: rgb(52, 53, 72);
+    font-size: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    //color: $theme--dark;
+    color: rgb(255, 0, 0);
+  }
+
+  a:hover {
+    text-decoration: underline;
+
+    color:rgb(62, 138, 232);
+
+  }
+}

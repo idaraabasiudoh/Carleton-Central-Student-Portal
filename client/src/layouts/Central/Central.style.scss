@@ -1,0 +1,54 @@
+@import "../../globals.scss";
+
+.Central {
+
+  &__page {
+    height: 100vh;
+
+
+    padding-left: 2%;
+    padding-right: 2%;
+
+    font-style: normal;
+    font-family:
+      'Poppins',
+      verdana,
+      arial narrow,
+      helvetica,
+      sans-serif;
+
+    #darkModeBtn {
+      border:none;
+      border-radius: 10%;
+      background-color: rgb(126, 126, 126);
+      color:white;
+    }
+
+
+    &__title {
+      margin-top: 1.67rem;
+      margin-bottom: 1.5rem;
+
+      font-weight: bold;
+      font-size: 1.7em;
+      padding-left: 10px;
+      color: rgb(35, 35, 101);
+
+    }
+
+    &__footer {
+      font-weight: bold;
+      font-size: 80%;
+      text-align: left;
+      color: rgb(255, 0, 0);
+
+      &__release {
+        text-transform: uppercase;
+      }
+
+      &__copyright {
+        margin-top: 1.67rem;
+      }
+    }
+  }
+}
