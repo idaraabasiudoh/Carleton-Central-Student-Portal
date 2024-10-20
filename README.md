@@ -1,6 +1,6 @@
-# Hack The Tunnels - Starter 2024
+# Carleton-Central-Student-Portal
 
-![Hack The Tunnels](https://i.imgur.com/1NCyXkn.png)
+This project recreates the infamous probelmatic Carleton Central student portal with updated UI to address common user experience complaints
 
 This is the project template for [Hack The Tunnels](https://ccss.carleton.ca/hackthetunnels/).
 
